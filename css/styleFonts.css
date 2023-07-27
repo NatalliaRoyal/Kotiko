@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/*Шрифты*/
+html {
+  font-family: "Montserrat";
+}
+
+/*Header*/
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: center;
+}
+
+.normal {
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.info {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.info1 {
+  text-align: center;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info2 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 97%;
+}
+
+.banner1Mob {
+  font-size: 1.5625rem;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.banner2Mob {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+/*Main*/
+.look {
+  font-size: 0.875rem;
+  line-height: 140%;
+}
+
+.look2 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.normal1 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+/*Footer*/
+.caption {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.adress {
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.copy {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=styleFonts.css.map */
