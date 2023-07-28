@@ -2,7 +2,9 @@
 body {
   background-color: aquamarine;
 }
-
+.header1 {
+  background-image: url("img/bg-clouds.png");
+}
 /*Шрифты*/
 /*Header*/
 /*Main*/
