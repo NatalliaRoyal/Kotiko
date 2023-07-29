@@ -1,0 +1,28 @@
+// * {
+// 	border: 1px solid black;
+// }
+
+.rooms {
+	padding: 6rem 0.62rem;
+
+	.rooms__title {
+		@include caption;
+		color: $font-global-color;
+	}
+}
+
+.stock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 11.3rem;
+	margin: 2.5rem 1.5rem;
+	background-image: url(./../../img/bg-2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
+	.stock__text {
+		@include adress;
+		color: $font-global-color;
+	}
+}

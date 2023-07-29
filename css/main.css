@@ -1,0 +1,44 @@
+@charset "UTF-8";
+html {
+  font-size: 5vw;
+}
+
+.none {
+  display: none;
+}
+
+/*Шрифты*/
+/*Header*/
+/*Main*/
+/*Footer*/
+.header {
+  background-image: url("../img/bg-clouds.png");
+}
+
+.rooms {
+  padding: 6rem 0.62rem;
+}
+.rooms .rooms__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #242424;
+}
+
+.stock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11.3rem;
+  margin: 2.5rem 1.5rem;
+  background-image: url(./../../img/bg-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.stock .stock__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  line-height: 140%;
+  color: #242424;
+}
