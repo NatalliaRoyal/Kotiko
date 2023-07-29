@@ -12,42 +12,57 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./sass/main.css">
 
 </head>
 
 <body>
-	<header class="">
-		<div> <img src="img/logo.svg" alt="logo">
+	<header class="header">
+		<div class="header__caption"> <img src="img/logo.svg" alt="logo">
+			<p> отель для котиков </p>
 		</div>
-		<p> отель для котиков </p>
-		<div>
-			<img src="img/icon-call.svg" alt="iconcall">
-			<p> <a href="+7 (905) 230-55-99"> +7 (905) 230-55-99 </a></p>
-			<img src="img/icon-location.svg" alt="location">
-			<p> <a href="г. Санкт-Петербург ул. Ключевая, дом 32 "> г. Санкт-Петербург ул. Ключевая, дом 32 </a></p>
-			<img src="img/icon-clock.svg" alt="worktime">
-			<p> Круглосуточно </p>
-			<button> <a href="kotikozoohotel"> <img src="img/icon-instagram.svg" alt="instagram"> kotikozoohotel </a>
+		<div class="contacts">
+			<div class="contacts__phone"> 
+				<img src="img/icon-call.svg" alt="iconcall">
+				<p> <a class="contacts__phonenumber" href="+7 (905) 230-55-99"> +7 (905) 230-55-99 </a> </p>
+			</div>
+			<div class="contacts__location"> 
+				<img src="img/icon-location.svg" alt="location">
+				<p> <a class="contacts__adress" href="г. Санкт-Петербург ул. Ключевая, дом 32 "> г. Санкт-Петербург <br> ул. Ключевая, дом 32 </a></p>
+			</div>
+			<div class="contacts__worktime"> 
+				<img src="img/icon-clock.svg" alt="worktime">
+				<p class="contacts__daynight"> Круглосуточно </p>
+			</div>
+			<button class="contacts__instagram"> <a class="contacts__instagram contacts__instagram_text" href="kotikozoohotel"> <img src="img/icon-instagram.svg" alt="instagram"> kotikozoohotel </a>
 			</button>
 		</div>
-		<nav>
-			<a href="menu">Номера</a>
-			<a href="menu">и цены</a>
-			<a href="menu">Заявка</a>
-			<a href="menu">на бронирование</a>
-			<a href="menu">Видео</a>
-			<a href="menu">наблюдение</a>
-			<a href="menu">Оплатить</a>
-			<a href="menu">Все о нас</a>
+		<nav class="menu">
+			<a class="menu__link" href="menu">Номера</a>
+			<a class="menu__link2" href="menu">и цены</a>
+			<a class="menu__link" href="menu">Заявка</a>
+			<a class="menu__link1" href="menu">на бронирование</a>
+			<a class="menu__link" href="menu">Видео</a>
+			<a class="menu__link1" href="menu">наблюдение</a>
+			<a class="menu__pay" href="menu">Оплатить</a>
+			<a class="menu__about" href="menu">Все о нас</a>
 		</nav>
-		<h1> Гостиница для кошек с видеонаблюдением</h1>
-		<p>Будьте спокойны за вашего питомца, пока вы в отъезде</p>
-		<p> Любовь и забота гарантированы</p>
-		<ul>
-			<li>видеонаблюдение в режиме 24/7 и ежедневный фото/видеоотчет в мессенджеры</li>
-			<li>просторные номера с окнами</li>
-			<li>круглосуточное присутствие котоняни</li>
+	 <div class="header__title"> 
+		<h1 > Гостиница для кошек с видеонаблюдением</h1>
+	</div>
+	<div> 
+		<p class="header__item">Будьте спокойны за вашего питомца, пока вы в отъезде</p>
+	</div>
+	<div> 
+		<p class="header__item"> Любовь и забота гарантированы</p>
+	</div>
+	<div> 
+		<ul class="list">
+			<li class="list_item1">видеонаблюдение в режиме 24/7 и ежедневный фото/видеоотчет в мессенджеры</li>
+			<li class="list_item2">просторные номера с окнами</li>
+			<li class="list_item3">круглосуточное присутствие котоняни</li>
 		</ul>
+	</div>
 	</header>
 	<main>
 		<section class="rooms">
