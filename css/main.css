@@ -42,3 +42,141 @@ html {
   line-height: 140%;
   color: #242424;
 }
+
+.rooms__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.block-img__standart {
+  background-image: url("./../../img/discount-img.jpg");
+  background-repeat: no-repeat;
+}
+
+.block-img__standart-plus {
+  background-image: url("./../../img/discount-img-2.jpg");
+  background-repeat: no-repeat;
+}
+
+.block-img__lux {
+  background-image: url("./../../img/discount-img-3.jpg");
+  background-repeat: no-repeat;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 24.6875rem;
+  padding: 0 0.62rem;
+}
+
+.card {
+  border: 1px solid rgba(246, 166, 191, 0.5);
+}
+
+.card__description {
+  padding: 0.94rem 0 1.88rem 0.94rem;
+}
+
+.card__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  line-height: 140%;
+  color: #F6A6BF;
+  padding-bottom: 0.81rem;
+}
+
+.card__price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  line-height: 140%;
+  color: #242424;
+  padding-bottom: 1.19rem;
+}
+
+.room-size {
+  display: flex;
+  flex-direction: column;
+  gap: 0.31rem;
+  padding-bottom: 1.25rem;
+}
+
+.room-size-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #848484;
+}
+
+.room-size-sm {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #242424;
+}
+
+.house-size__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #848484;
+  padding-bottom: 0.31rem;
+}
+
+.house-size-sm {
+  display: flex;
+  gap: 1.88rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #242424;
+}
+
+.card__btn {
+  width: 18.75rem;
+  height: 3.4375rem;
+  margin-bottom: 1.88rem;
+  border: none;
+  border-radius: 6.25rem;
+  background: #F6A6BF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #FFF;
+}
+
+.photo-gallery {
+  padding: 0 0.62rem;
+}
+
+.photo-gallery__title-block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.88rem;
+}
+
+.photo-gallery__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #242424;
+}
+
+.photo-gallery-counter {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #848484;
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+  overflow: hidden;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}

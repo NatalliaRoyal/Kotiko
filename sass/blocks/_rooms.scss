@@ -26,3 +26,98 @@
 		color: $font-global-color;
 	}
 }
+
+.rooms__cards {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.block-img__standart {
+	background-image: url('./../../img/discount-img.jpg');
+	background-repeat: no-repeat;
+}
+
+.block-img__standart-plus {
+	background-image: url('./../../img/discount-img-2.jpg');
+	background-repeat: no-repeat;
+}
+
+.block-img__lux {
+	background-image: url('./../../img/discount-img-3.jpg');
+	background-repeat: no-repeat;
+}
+
+.arrow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 24.6875rem;
+	padding: 0 0.62rem;
+
+}
+
+.card {
+	border: 1px solid rgba($font-logo-headers--color, (0.5));
+}
+
+.card__description {
+	padding: 0.94rem 0 1.88rem 0.94rem;
+
+}
+
+.card__title {
+	@include adress;
+	color: $font-logo-headers--color;
+	padding-bottom: 0.81rem;
+}
+
+.card__price {
+	@include adress;
+	color: $font-global-color;
+	padding-bottom: 1.19rem;
+}
+
+.room-size {
+	display: flex;
+	flex-direction: column;
+	gap: 0.31rem;
+	padding-bottom: 1.25rem;
+}
+
+.room-size-text {
+	@include normal;
+	color: $font-p-color;
+}
+
+.room-size-sm {
+	@include normal;
+	color: $font-global-color;
+}
+
+.house-size {}
+
+.house-size__text {
+	@include normal;
+	color: $font-p-color;
+	padding-bottom: 0.31rem;
+}
+
+.house-size-sm {
+	display: flex;
+	gap: 1.88rem;
+	@include normal;
+	color: $font-global-color;
+}
+
+.card__btn {
+	width: 18.75rem;
+	height: 3.4375rem;
+	margin-bottom: 1.88rem;
+	border: none;
+	border-radius: 6.25rem;
+	background: $font-logo-headers--color ;
+
+	@include normal;
+	color: $font-lapka-color;
+}
