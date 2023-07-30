@@ -202,6 +202,7 @@ html {
 
 .rooms {
   padding: 0 0.62rem;
+  margin-bottom: 5rem;
 }
 .rooms .rooms__title {
   font-family: "Montserrat", sans-serif;
@@ -364,4 +365,82 @@ html {
   display: flex;
   gap: 1rem;
   margin-bottom: 5rem;
+}
+
+.footer-block {
+  padding: 0 0.62rem 1.88rem;
+}
+
+.footer__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #242424;
+  padding-bottom: 1.88rem;
+}
+
+.adress__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: #242424;
+  padding-right: 6rem;
+  padding-bottom: 1.25rem;
+}
+
+.map {
+  padding-bottom: 1.88rem;
+  overflow: hidden;
+}
+
+.map-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #848484;
+  padding-bottom: 1.25rem;
+}
+
+.route-block__card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.route__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  line-height: 140%;
+  color: #242424;
+  padding-bottom: 1.25rem;
+}
+
+.route__img {
+  padding-bottom: 1.25rem;
+}
+
+.route__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #242424;
+  width: 14.75rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF7F5;
+  height: 3.5rem;
+}
+
+.copyright__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #28AFC9;
 }
