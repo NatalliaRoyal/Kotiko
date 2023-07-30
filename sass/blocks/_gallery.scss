@@ -1,0 +1,29 @@
+.photo-gallery {
+	padding: 0 0.62rem;
+}
+
+.photo-gallery__title-block {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1.88rem;
+}
+
+.photo-gallery__title {
+	@include caption;
+	color: $font-global-color;
+
+}
+
+.photo-gallery-counter {
+	@include normal;
+	color: $font-p-color;
+	display: flex;
+	align-items: center;
+}
+
+.gallery {
+	overflow: hidden;
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 5rem;
+}

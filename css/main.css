@@ -11,10 +11,197 @@ html {
 /*Header*/
 /*Main*/
 /*Footer*/
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  width: 18.75rem;
+  height: 74.5rem;
+  justify-content: start;
+  align-content: center;
+}
 
+.header__caption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #F6A6BF;
+  text-align: center;
+}
+
+.contacts {
+  text-align: center;
+  background: url(./../../img/bg-clouds.png);
+  background-size: contain;
+}
+
+.contacts__phone {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.contacts__phonenumber {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-decoration: none;
+  color: #242424;
+}
+
+.contacts__location {
+  margin-bottom: 1.625rem;
+}
+
+.contacts__adress {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-decoration: none;
+  color: #242424;
+  height: 1.625rem;
+  width: 9.375rem;
+}
+
+.contacts__worktime {
+  margin-bottom: 1.875rem;
+}
+
+.contacts__daynight {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 100%;
+  color: #242424;
+}
+
+.contacts__instagram {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  width: 13.75rem;
+  height: 3.75rem;
+  border-radius: 6.25rem;
+  background-color: #F6A6BF;
+  border: none;
+  text-align: center;
+}
+
+.contacts__instagram_text {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.header__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #242424;
+  height: 4.375rem;
+  width: 18.75rem;
+  margin-top: 3.125rem;
+  margin-bottom: 1.875rem;
+}
+
+.header__item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 150%;
+  color: #242424;
+  margin-bottom: 1.25rem;
+}
+
+.list {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #242424;
+  list-style-image: url(./../../img/icon-heart.svg);
+  margin-left: 0.625rem;
+}
+
+.list_item1 {
+  height: 4.125rem;
+  width: 15.625rem;
+  margin-left: 1.875rem;
+  margin-right: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.list_item2 {
+  height: 2.75rem;
+  width: 10.6875rem;
+  margin-left: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+
+.list_item3 {
+  width: 12.1875rem;
+  height: 2.75rem;
+  margin-left: 1.875rem;
+  margin-bottom: 5rem;
+}
+
+.menu {
+  height: 18.625rem;
+  width: 18.75rem;
+  background: url(./../../img/bg-lapka.png);
+  background-size: contain;
+}
+
+.menu__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu__link1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu__link2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu__pay {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.menu__about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 97%;
+  color: #FFF;
+  text-decoration: none;
+}
 
 .rooms {
-  padding: 6rem 0.62rem;
+  padding: 0 0.62rem;
 }
 .rooms .rooms__title {
   font-family: "Montserrat", sans-serif;
