@@ -1,0 +1,82 @@
+
+.about__us__block {
+    background-image: url(../img/bg-6.png);
+    background-repeat: no-repeat;
+}
+
+.about__us__main__title {
+    margin: 0 13.06rem 1.875rem 0.625rem;
+    padding-top: 3.125rem;
+}
+
+.about__us__main__title, .important__title {
+    @include caption;
+    color: $font-global-color;
+}
+
+.about__us__item {
+    margin: 0 0.625rem 2.5rem 0.625rem;
+}
+
+.about__us__title, .about__us__question {
+    @include adress;
+    color: $font-global-color;
+    margin: 2.5rem 0.625rem 1.875rem 0.625rem;
+}
+
+.about__us__answer {
+    margin: 0 0.625rem 2.5rem 0.625rem;
+}
+
+.about__us__title {
+    margin: 0 10rem 1.875rem 0.625rem;
+}
+
+.about__us__answer, .about__us__item, .about__us__list>li, .important__block p {
+    @include normal;
+    color: $font-global-color;
+}
+
+.about__us__list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.cat__icon {
+    margin: 0 1rem 0 0.625rem;
+}
+
+.about__us__list__block {
+    @include normal;
+    color: $font-p-color;
+    margin: 1.25rem 3.75rem 0.625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__us__list__block span {
+    margin-bottom: 0.3125rem;
+}
+
+.important__block {
+    margin: 4.375rem 0 6.25rem 0;
+    background-color: $background-bookingform-important-color;
+}
+
+.important__title {
+    margin: 0 13.56rem 1.875rem 0.8125rem;
+    padding-top: 1.875rem;
+}
+
+div.important__block>p {
+    margin: 0 0.8125rem 1.875rem 0.8125rem
+}
+
+.important__img {
+    margin: auto auto;
+    width: 14.06rem;
+}
+
+
+

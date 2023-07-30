@@ -1,0 +1,33 @@
+.cooperation__main__title {
+    @include caption;
+    color: $font-global-color;
+    margin: 6.25rem 8.375rem 1.875rem 0.625rem
+}
+
+.cooperation__title {
+    @include adress;
+    color: $font-global-color;
+    margin: 0 0.625rem 1rem 0.625rem;
+}
+
+.cooperation__item {
+    @include normal;
+    color: $font-global-color;
+    margin: 0 0.625rem 1.875rem 0.625rem;
+}
+
+.list__block {
+    padding-bottom: 6.25rem;
+}
+
+.cooperation__list li {
+    @include banner2Mob;
+    color: $font-global-color;
+    display: flex;
+    align-items: center;
+}
+
+.icon__lapka {
+    margin: 0 1.563rem 1rem 0.625rem;
+    padding-top: 1rem;
+}

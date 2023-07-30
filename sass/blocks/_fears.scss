@@ -1,0 +1,29 @@
+.owners__fears__main__title {
+    @include caption;
+    color: $font-global-color;
+    margin: 0 4.188rem 0.625rem 0.625rem;
+}
+
+.owners__fears__box__look__2 {
+    @include look2;
+    color: $font-p-color;
+    margin: 0 6.938rem 3.125rem 0.625rem;
+}
+
+.fears__question {
+    @include normal1;
+    color: $font-global-color;
+    padding: 1.25rem 0.625rem 1.25rem 0.625rem;
+    background-color: $background-fears-footer-color;
+}
+
+.fears__question_block {
+    margin: 0.3125rem 0 0.3125rem 0;
+}
+
+.fears__answer {
+    @include look;
+    color: $font-global-color;
+    padding: 0 0.625rem 1.25rem 0.625rem;
+    background-color: $background-fears-footer-color;
+}
