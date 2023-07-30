@@ -1,0 +1,66 @@
+.footer {}
+
+.footer-block {
+	padding: 0 0.62rem 1.88rem;
+}
+
+.footer__title {
+	@include caption;
+	color: $font-global-color;
+	padding-bottom: 1.88rem;
+}
+
+.adress__text {
+	@include banner2Mob;
+	color: $font-global-color;
+	padding-right: 6rem;
+	padding-bottom: 1.25rem;
+}
+
+.map {
+	padding-bottom: 1.88rem;
+	overflow: hidden;
+}
+
+.map-text {
+	@include normal;
+	color: $font-p-color;
+	padding-bottom: 1.25rem;
+}
+
+.route-block__card {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.route__title {
+	@include adress;
+	color: $font-global-color;
+	padding-bottom: 1.25rem;
+}
+
+.route__card {}
+
+.route__img {
+	padding-bottom: 1.25rem;
+}
+
+.route__text {
+	@include normal;
+	color: $font-global-color;
+	width: 14.75rem;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-fears-footer-color;
+	height: 3.5rem;
+}
+
+.copyright__text {
+	@include copy;
+	color: $font-copy-color;
+}
