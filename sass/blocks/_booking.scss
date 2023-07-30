@@ -1,0 +1,61 @@
+.booking {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    justify-content: start;
+    align-content: center;
+}
+
+.booking-header {
+    @include caption;
+    color: $font-global-color;
+    margin-top: 6.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.booking-img {
+    width: 18.25rem;
+    height: 17.8125rem;
+    margin-bottom: 1.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.booking-form {
+    @include title;
+    background-color: $background-bookingform-important-color;
+}
+
+.booking-form-input {
+    @include title;
+    border: 0;
+    border-bottom: 0.0625rem solid $font-global-color;
+    background-color: $background-bookingform-important-color;
+    width: 18.75rem;
+    height: 2.1875rem;
+    margin-top: 2.8125rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.item1 {
+    margin-top: 1.875rem;
+}
+
+.item2 {
+    margin-bottom: 3.125rem;
+}
+
+.booking-button {
+    @include title;
+    width: 18.75rem;
+    height: 4.375rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    margin-bottom: 1.875rem;
+    border-radius: 6.25rem;
+    border: 0;
+    background-color: $font-logo-headers--color;
+    color: $background-global-color;
+}

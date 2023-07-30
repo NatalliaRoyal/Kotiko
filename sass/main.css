@@ -372,8 +372,6 @@ html {
   margin-top: 1.25rem;
   margin-left: 0.625rem;
   margin-right: 0.625rem;
-  width: 18.75rem;
-  height: 74.5rem;
   justify-content: start;
   align-content: center;
 }
@@ -467,4 +465,78 @@ html {
   margin-left: 3rem;
   margin-right: 2.9375rem;
   margin-bottom: 1.875rem;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  justify-content: start;
+  align-content: center;
+}
+
+.booking-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #242424;
+  margin-top: 6.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.booking-img {
+  width: 18.25rem;
+  height: 17.8125rem;
+  margin-bottom: 1.875rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.booking-form {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #FFFEF1;
+}
+
+.booking-form-input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  border-bottom: 0.0625rem solid #242424;
+  background-color: #FFFEF1;
+  width: 18.75rem;
+  height: 2.1875rem;
+  margin-top: 2.8125rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.item1 {
+  margin-top: 1.875rem;
+}
+
+.item2 {
+  margin-bottom: 3.125rem;
+}
+
+.booking-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  width: 18.75rem;
+  height: 4.375rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  margin-bottom: 1.875rem;
+  border-radius: 6.25rem;
+  border: 0;
+  background-color: #F6A6BF;
+  color: #FFF;
 }/*# sourceMappingURL=main.css.map */
