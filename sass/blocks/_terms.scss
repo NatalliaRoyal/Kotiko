@@ -1,0 +1,86 @@
+.terms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    width: 18.75rem;
+    height: 74.5rem;
+    justify-content:start;
+    align-content: center;
+}
+.terms-background{
+    background-image: url(./../../img/bg-3.png);
+    width: 20rem;
+    height: 20rem;
+    background-repeat: no-repeat;
+}
+
+.terms-header {
+    color: $font-global-color;
+    @include caption;
+    margin-bottom: 1.25rem;
+}
+
+.terms-list-head {
+    color: $font-global-color;
+    @include adress;
+    margin-bottom: 1.25rem;
+}
+
+.terms-list {
+    @include normal;
+    color: $font-global-color;
+    list-style-image: url(./../../img/icon-point.svg);
+    margin-left: 0.625rem;
+}
+
+.terms-list-item {
+    margin-bottom: 0.9375rem;
+}
+
+.terms-list-item5 {
+    margin-bottom: 1.875rem;
+}
+
+.terms-recomm {
+    border-top: 0.0625rem solid $numbers-video-color;
+    border-bottom: 0.0625rem solid $numbers-video-color;
+}
+
+.terms-recomm-header {
+    @include adress;
+    color: $font-global-color;
+    margin-top: 0.9375rem;
+    margin-bottom: 1.25rem;
+}
+
+.terms-recom-head {
+    @include normal;
+    color: $font-p-color;
+    margin-bottom: 1.25rem;
+}
+
+.terms-nutrition-header {
+    @include adress;
+    color: $font-global-color;
+    margin-top: 0.9375rem;
+    margin-bottom: 1.25rem;
+}
+
+.terms-content {
+    @include normal;
+    color: $font-global-color;
+    margin-bottom: 1.875rem;
+}
+
+.terms-nutrition {
+    border-bottom: 0.0625rem solid $numbers-video-color;
+}
+
+.terms-important-img {
+    margin-top: 2.5rem;
+    margin-left: 3rem ;
+    margin-right: 2.9375rem;
+    margin-bottom: 1.875rem;
+}
