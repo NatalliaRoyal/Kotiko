@@ -1,0 +1,52 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    justify-content:start;
+    align-content: center;
+}
+
+.video-header {
+    @include caption;
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    color: $font-global-color;
+}
+
+.video-content {
+    @include normal;
+    margin-bottom: 1.875rem;
+    color: $font-global-color;
+}
+.video-button-numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.video-button-numbers1 {
+    @include caption;
+    color: $numbers-video-color;
+    border: 0;
+    border-radius: 5rem;
+    background-color: $background-fears-footer-color;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1.5625rem;
+    margin-left: 0.625rem;
+
+}
+
+.lastbut {
+    margin-bottom: 1.875rem;
+    margin-right: 1.125rem;
+}
+
+.video-button {
+    @include look;
+    color: $font-p-color;
+    background-color: #fff;
+    border: 0;
+    margin-bottom: 3.125rem;
+}

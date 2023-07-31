@@ -546,8 +546,6 @@ div.important__block > p {
   margin-top: 1.25rem;
   margin-left: 0.625rem;
   margin-right: 0.625rem;
-  width: 18.75rem;
-  height: 74.5rem;
   justify-content: start;
   align-content: center;
 }
@@ -715,6 +713,69 @@ div.important__block > p {
   border: 0;
   background-color: #F6A6BF;
   color: #FFF;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+  justify-content: start;
+  align-content: center;
+}
+
+.video-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+  margin-top: 4.375rem;
+  margin-bottom: 1.875rem;
+  color: #242424;
+}
+
+.video-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  margin-bottom: 1.875rem;
+  color: #242424;
+}
+
+.video-button-numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.video-button-numbers1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #E36F96;
+  border: 0;
+  border-radius: 5rem;
+  background-color: #FAF7F5;
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1.5625rem;
+  margin-left: 0.625rem;
+}
+
+.lastbut {
+  margin-bottom: 1.875rem;
+  margin-right: 1.125rem;
+}
+
+.video-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  line-height: 140%;
+  color: #848484;
+  background-color: #fff;
+  border: 0;
+  margin-bottom: 3.125rem;
 }
 
 .footer-block {
