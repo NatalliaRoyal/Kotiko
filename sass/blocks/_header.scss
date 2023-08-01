@@ -81,6 +81,9 @@
 }
 
 .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
     @include normal;
     color: $font-global-color;
     list-style-image: url(./../../img/icon-heart.svg);
@@ -91,19 +94,16 @@
     width: 15.625rem;
     margin-left: 1.875rem;
     margin-right: 0.625rem;
-    margin-bottom: 1.25rem;
 }
 .list_item2 {
     height: 2.75rem;
     width: 10.6875rem;
     margin-left: 1.875rem;
-    margin-bottom: 1.25rem;
 }
 .list_item3 {
     width: 12.1875rem;
     height: 2.75rem;
     margin-left: 1.875rem;
-    margin-bottom: 5rem;
 }
 .menu {
     display: grid;

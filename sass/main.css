@@ -124,6 +124,9 @@ html {
 }
 
 .list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   line-height: 140%;
@@ -137,21 +140,18 @@ html {
   width: 15.625rem;
   margin-left: 1.875rem;
   margin-right: 0.625rem;
-  margin-bottom: 1.25rem;
 }
 
 .list_item2 {
   height: 2.75rem;
   width: 10.6875rem;
   margin-left: 1.875rem;
-  margin-bottom: 1.25rem;
 }
 
 .list_item3 {
   width: 12.1875rem;
   height: 2.75rem;
   margin-left: 1.875rem;
-  margin-bottom: 5rem;
 }
 
 .menu {
