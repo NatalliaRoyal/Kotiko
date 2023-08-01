@@ -18,7 +18,9 @@
 .contacts {
     text-align: center;
     background: url(./../../img/bg-clouds.png);
-    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
 }
 .contacts__phone {
     margin-bottom: 1.25rem;
@@ -98,10 +100,14 @@
     margin-bottom: 5rem;
 }
 .menu {
+    display: grid;
     height: 18.625rem;
     width: 18.75rem;
     background: url(./../../img/bg-lapka.png);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1.875rem;
 }
 .menu__link {
     @include info;
