@@ -160,31 +160,90 @@ html {
   margin-top: 1.875rem;
 }
 
-.menu__link {
+.menu__number {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9375rem;
   font-weight: 600;
   line-height: normal;
   color: #FFF;
   text-decoration: none;
+  transform: rotate(-28.858deg);
+  grid-area: 5/1/6/2;
+  width: 4.1325rem;
+  height: 1.1798rem;
+  margin-left: 0.295rem;
 }
 
-.menu__link1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  line-height: normal;
-  color: #FFF;
-  text-decoration: none;
-}
-
-.menu__link2 {
+.menu__price {
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
   font-weight: 500;
   line-height: normal;
   color: #FFF;
   text-decoration: none;
+  transform: rotate(-28.858deg);
+  grid-area: 6/1/7/2;
+  width: 3.001rem;
+  height: 0.9831rem;
+  margin-left: 1.3756rem;
+}
+
+.menu__request {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+  transform: rotate(-12.626deg);
+  grid-area: 3/1/4/2;
+  width: 3.64rem;
+  height: 1.1795rem;
+  margin-left: 3.435rem;
+}
+
+.menu__booking {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+  transform: rotate(-14.711deg);
+  grid-area: 3/1/4/2;
+  width: 4.1826rem;
+  height: 3rem;
+  margin-left: 3.435rem;
+}
+
+.menu__video {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+  transform: rotate(0.334deg);
+  grid-area: 2/1/3/2;
+  width: 3.3956rem;
+  height: 1.179rem;
+  margin-left: 9.7475rem;
+  align-items: end;
+}
+
+.menu__cctv {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: normal;
+  color: #FFF;
+  text-decoration: none;
+  grid-area: 3/1/4/2;
+  width: 3.952rem;
+  height: 2rem;
+  margin-left: 9.435rem;
+  transform: rotate(0.334deg);
+  text-align: center;
 }
 
 .menu__pay {
@@ -194,6 +253,12 @@ html {
   line-height: normal;
   color: #FFF;
   text-decoration: none;
+  grid-area: 4/1/5/2;
+  transform: rotate(13.294deg);
+  text-align: center;
+  width: 4.5rem;
+  height: 1.0625rem;
+  margin-left: 13.7475rem;
 }
 
 .menu__about {
@@ -203,6 +268,12 @@ html {
   line-height: 97%;
   color: #FFF;
   text-decoration: none;
+  grid-area: 7/1/9/2;
+  text-align: center;
+  transform: rotate(-13.857deg);
+  width: 5.6089rem;
+  height: 3.833rem;
+  margin-left: 7.2475rem;
 }
 
 .rooms {
