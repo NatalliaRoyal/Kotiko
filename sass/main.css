@@ -21,6 +21,7 @@ html {
   height: 74.5rem;
   justify-content: start;
   align-content: center;
+  padding-bottom: 3.75rem;
 }
 
 .header__caption {
@@ -81,6 +82,10 @@ html {
 }
 
 .contacts__instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   line-height: 140%;

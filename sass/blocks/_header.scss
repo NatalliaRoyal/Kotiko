@@ -8,6 +8,7 @@
     height: 74.5rem;
     justify-content:start;
     align-content: center;
+    padding-bottom: 3.75rem;
 }
 .header__caption {
     @include title;
@@ -49,6 +50,10 @@
     color: $font-global-color;
 }
 .contacts__instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     @include normal;
     width: 13.75rem;
     height: 3.75rem;
@@ -74,6 +79,7 @@
     color: $font-global-color;
     margin-bottom: 1.25rem;
 }
+
 .list {
     @include normal;
     color: $font-global-color;
