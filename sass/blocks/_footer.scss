@@ -2,11 +2,13 @@
 
 .footer-block {
 	padding: 0 0.62rem 1.88rem;
+	background-color: $background-fears-footer-color;
 }
 
 .footer__title {
 	@include caption;
 	color: $font-global-color;
+	padding-top: 1.88rem;
 	padding-bottom: 1.88rem;
 }
 
@@ -56,7 +58,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: $background-fears-footer-color;
 	height: 3.5rem;
 }
 
