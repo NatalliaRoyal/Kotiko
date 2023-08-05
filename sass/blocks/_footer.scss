@@ -24,6 +24,11 @@
 	overflow: hidden;
 }
 
+.map__desctop {
+	display: none;
+}
+
+
 .map-text {
 	@include normal;
 	color: $font-p-color;
@@ -64,4 +69,117 @@
 .copyright__text {
 	@include copy;
 	color: $font-copy-color;
+}
+
+.footer__nav {
+	display: none;
+}
+
+.none {
+	display: none;
+}
+
+@media (min-width: 1600px) {
+	.footer {
+		font-size: 1vw;
+		margin: 0 auto;
+	}
+
+	.footer-block {
+		padding: 0 12.5em;
+	}
+
+	.footer__title {
+		padding: 1.7em 0 1.24em 0;
+		font-size: 2.5em;
+		font-weight: 600;
+	}
+
+	.adress-map__text {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0 3em 0;
+	}
+
+	.adress__text {
+		font-size: 1.25em;
+		font-weight: 500;
+		line-height: 150%;
+		padding: 0;
+	}
+
+	.map-text {
+		font-size: 1.125em;
+		font-weight: 400;
+		line-height: 140%;
+		padding: 0 13.44em 0 0;
+	}
+
+	.map {
+		display: none;
+	}
+
+	.map__desctop {
+		display: block;
+	}
+
+	.route {}
+
+	.route-block__card {
+		padding: 4.19em 0 3.19em 0;
+		display: flex;
+		flex-direction: row;
+		gap: 7em;
+	}
+
+	.route__title {
+		font-size: 1.625em;
+		font-weight: 600;
+		line-height: 140%;
+		padding: 0;
+	}
+
+	.route__card {
+		width: 13em;
+		height: 19em;
+		padding: 0;
+	}
+
+	.route__img {
+		width: 12.5em;
+		padding: 0;
+	}
+
+	.route__text {
+		width: 14.75em;
+		font-size: 1em;
+		line-height: 140%;
+		padding: 0;
+	}
+
+	.copyright {
+		padding: 0 12.5em;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10em;
+		height: 5em;
+
+	}
+
+	.copyright__text {
+		font-size: 0.875em;
+		font-weight: 500;
+	}
+
+	.footer__nav {
+		display: flex;
+		gap: 2.5em;
+		width: 45em;
+	}
+
+	.nav__link {
+		text-decoration: none;
+		color: $font-global-color;
+	}
 }

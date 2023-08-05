@@ -10,8 +10,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="./sass/main.css"> -->
 	<link rel="stylesheet" href="./css/main.css">
-	<link rel="stylesheet" href="./sass/main.css">
+
+
+
 </head>
 
 <body>
@@ -67,7 +70,7 @@
 			</ul>
 		</div>
 	</header>
-	<main>
+	<main class="">
 		<section class="rooms">
 			<h2 class="rooms__title">Номера и цены </h2>
 			<div class="stock">
@@ -490,29 +493,37 @@
 		<div class="footer-block">
 
 			<h2 class="footer__title">Адрес и контакты</h2>
-			<p class="adress__text">г. Санкт-Петербург ул. Ключевая, д.32 </p>
-			<div class="map">
+			<div class="adress-map__text">
+				<p class="adress__text">г. Санкт-Петербург ул. Ключевая, д.32 </p>
 				<p class="map-text">Скопировать адрес для навигатора</p>
+			</div>
+			<div class="map">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1023843.5813538688!2d27.72943438402272!3d59.92061744588238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2spl!4v1690714738157!5m2!1sru!2spl"
 					width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
+			<div class="map__desctop">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2046465.5144791477!2d30.094672!3d59.940414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a6f9d%3A0xfa47ca5a4725c9e4!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2spl!4v1691108916186!5m2!1sru!2spl"
+					width="1200" height="800" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
 			<div class="route">
-				<h3 class="route__title">Как пройти</h3>
 				<div class="route-block__card">
+					<h3 class="route__title">Как пройти</h3>
 					<div class="route__card">
 						<img class="route__img" src="./img/location-img.jpg" alt="">
-						<p class="route__text">Мы находимся в здании многоуровневой парковки со стороны двора</p>
+						<p class="route__text">Мы находимся в здании <br> многоуровневой парковки <br> со стороны двора</p>
 					</div>
 					<div class="route__card">
 						<img class="route__img" src="./img/location-img-2.jpg" alt="">
-						<p class="route__text">Вход со двора под вывеской "Вход" 5 этаж</p>
+						<p class="route__text">Вход со двора под <br> вывеской "Вход" 5 этаж</p>
 					</div>
 					<div class="route__card">
 						<img class="route__img" src="./img/location-img-3.jpg" alt="">
-						<p class="route__text">Если навигатор привел Вас со стороны бизнес центра к шлагбауму, можно
-							пройти по
+						<p class="route__text">Если навигатор привел Вас <br> со стороны бизнес центра к <br> шлагбауму, можно
+							пройти <br> по
 							тропинке направо</p>
 					</div>
 				</div>
@@ -523,6 +534,13 @@
 			<p class="copyright__text">
 				Copyright © 2021
 			</p>
+			<nav class="footer__nav">
+				<a class="nav__link" href="#" ">Номера и цены</a>
+				<a class=" nav__link" href="#" ">Заявка на бронирование</a>
+				<a class=" nav__link" href="#" ">Оплатить</a>
+				<a class=" nav__link" href="#" ">Видеонаблюдение</a>
+				<a class=" nav__link" href="#">Всё о нас</a>
+			</nav>
 		</div>
 	</footer>
 </body>
