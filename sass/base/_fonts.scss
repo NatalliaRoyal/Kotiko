@@ -8,6 +8,12 @@
 	font-weight: 500;
 	line-height: normal;
 }
+@mixin titledesktop {
+	font-family: 'Montserrat', sans-serif ;
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: normal;
+}
 
 @mixin contact {
 	font-family: 'Montserrat', sans-serif;

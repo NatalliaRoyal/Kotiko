@@ -1,3 +1,8 @@
 html {
 	font-size: 5vw;
 }
+@media screen and (min-width: 1600px) {
+	html {
+		font-size: 1vw;
+	}
+}

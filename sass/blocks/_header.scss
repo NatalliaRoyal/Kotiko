@@ -4,8 +4,6 @@
     margin-top: 1.25rem;
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-    width: 18.75rem;
-    height: 74.5rem;
     justify-content:start;
     align-content: center;
     padding-bottom: 3.75rem;
@@ -21,7 +19,6 @@
     background: url(./../../img/bg-clouds.png);
     background-position: right;
     background-repeat: no-repeat;
-
 }
 .contacts__phone {
     margin-bottom: 1.25rem;
@@ -39,8 +36,6 @@
     @include contact;
     text-decoration: none;
     color: $font-global-color;
-    height: 1.625rem;
-    width: 9.375rem;
 }
 .contacts__worktime {
     margin-bottom: 1.875rem;
@@ -69,12 +64,10 @@
 .header__title {
     @include banner1Mob;
     color: $font-global-color;
-    height: 4.375rem;
-    width: 18.75rem;
     margin-top: 3.125rem;
     margin-bottom: 1.875rem ;
 }
-.header__item {
+.header__item,.header__item1  {
     @include banner2Mob;
     color: $font-global-color;
     margin-bottom: 1.25rem;
@@ -140,10 +133,11 @@
     color: $font-lapka-color;
     text-decoration: none;
     transform: rotate(-12.626deg);
-    grid-area: 3/1/4/2;
+    grid-area: 2/1/3/2;
+    margin-left: 3.435rem;
     width: 3.64rem;
     height: 1.1795rem;
-    margin-left: 3.435rem;
+    align-items: end;
 }
 .menu__booking {
     @include info1;
@@ -192,10 +186,122 @@
     @include about;
     color: $font-lapka-color;
     text-decoration: none;
-    grid-area: 7/1/9/2;
+    grid-area: 6/1/9/2;
     text-align: center;
     transform: rotate(-13.857deg);
     width: 5.6089rem;
     height: 3.833rem;
     margin-left: 7.2475rem;
 }
+.booking-form1 {
+    display: none;
+}
+
+@media screen and (min-width: 1600px) {
+    
+    .booking-form1  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.875rem;
+    }
+    .booking-form1-input {
+        @include normal;
+        display: flex;
+        width: 14,375rem;
+        height: 2.25rem;
+        padding-top: 0,0625rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.75rem;
+        flex-shrink: 0;
+        color: $font-p-color;
+        border: 0;
+        border-bottom: 0.0625rem solid #242424;
+    }
+    .booking-button1 {
+        @include adress;
+        background-color: $font-logo-headers--color;
+        color: $font-lapka-color;
+        width: 13.75rem;
+        height: 3.75rem;
+        border-radius: 6.25rem;
+        border: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        width: 75rem;
+    }
+    .header__desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+        height: 5.6875rem;
+        width: 75rem;
+    }
+    .header__caption {
+        padding-top: 1.875rem;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        padding-top: 1.875rem;
+        justify-content: space-around;
+    }
+    .header__title {
+        @include titledesktop;
+        width: 36.9375rem;
+        margin-bottom: 1.25rem ;
+    }
+    .header__item1 {
+        display: none;
+    }
+    .menu {
+        width: 23.8125rem;
+        height: 23.6875rem;
+    }
+    .menu__number {
+        font-size: 1.25rem;
+    }
+    .menu__price {
+        font-size: 1rem;
+    }
+    .menu__request {
+        font-size: 1.25rem;
+    }
+    .menu__booking {
+        font-size: 0.5625rem;
+    }
+    .menu__video {
+        font-size: 1.25rem;
+    }
+    .menu__cctv {
+        font-size: 0.625rem;
+    }
+    .menu__pay {
+        font-size: 1.0625rem;
+    }
+    .menu__about {
+        font-size: 2.5rem;
+    }
+    .list {
+        display: flex;
+        flex-direction: row;
+        gap: 4.375rem;
+    }
+    .header__desktoptitle {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1; 
+        height: 31.875rem;
+        background: url(./../../img/cat-bg.svg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+  } 
