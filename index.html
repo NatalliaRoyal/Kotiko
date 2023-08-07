@@ -72,9 +72,11 @@
 	</header>
 	<main class="">
 		<section class="rooms">
-			<h2 class="rooms__title">Номера и цены </h2>
-			<div class="stock">
-				<p class="stock__text">Скидка 20% до <br> конца ноября!</p>
+			<div class="rooms__title-stock">
+				<h2 class="rooms__title">Номера и цены </h2>
+				<div class="stock">
+					<p class="stock__text">Скидка 20% до <br> конца ноября!</p>
+				</div>
 			</div>
 			<div class="rooms__cards">
 				<div class="card">
@@ -85,8 +87,10 @@
 						</div>
 					</div>
 					<div class="card__description">
-						<h3 class="card__title">Номер "СТАНДАРТ"</h3>
-						<p class="card__price">700 руб./сутки</p>
+						<div class="card__title-price">
+							<h3 class="card__title">Номер "СТАНДАРТ"</h3>
+							<p class="card__price">700 руб./сутки</p>
+						</div>
 						<div class="room-size">
 							<p class="room-size__text">Размер номера</p>
 							<p class="room-size-sm">1500*1500*2100 см</p>
@@ -109,8 +113,10 @@
 						</div>
 					</div>
 					<div class="card__description">
-						<h3 class="card__title">Номер "СТАНДАРТ+"</h3>
-						<p class="card__price">800 руб./сутки</p>
+						<div class="card__title-price">
+							<h3 class="card__title">Номер "СТАНДАРТ+"</h3>
+							<p class="card__price">800 руб./сутки</p>
+						</div>
 						<div class="room-size">
 							<p class="room-size__text">Размер номера</p>
 							<p class="room-size-sm">1200*2200*2100 см</p>
@@ -118,6 +124,7 @@
 						<div class="house-size">
 							<p class="house-size__text">Размер домиков</p>
 							<div class="house-size-sm">
+								<p>38*32см</p>
 								<p>38*32см</p>
 							</div>
 						</div>
@@ -132,8 +139,10 @@
 						</div>
 					</div>
 					<div class="card__description">
-						<h3 class="card__title">Номер "ЛЮКС"</h3>
-						<p class="card__price">1000 руб./сутки</p>
+						<div class="card__title-price">
+							<h3 class="card__title">Номер "ЛЮКС"</h3>
+							<p class="card__price">1000 руб./сутки</p>
+						</div>
 						<div class="room-size">
 							<p class="room-size__text">Размер номера</p>
 							<p class="room-size-sm">1200*3700*1500 см</p>
@@ -150,16 +159,31 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="photo-gallery">
 			<div class="photo-gallery__title-block">
 				<h2 class="photo-gallery__title">Фотогалерея</h2>
 				<p class="photo-gallery__counter">1/11</p>
 			</div>
 			<div class="gallery">
-				<img src="./img/gallery-img.jpg" alt="Фото комнаты для питомца из галереи ">
-				<img src="./img/gallery-img-2.jpg" alt="Фото комнаты для питомца из галереи ">
+				<img class="gallery__img1" src="./img/gallery-img.jpg" alt="Фото комнаты для питомца из галереи ">
+				<img class="gallery__img2" src="./img/gallery-img-2.jpg" alt="Фото комнаты для питомца из галереи ">
+				<img class="gallery__img3" src="./img/gallery-img-3.jpg" alt="Фото комнаты для питомца из галереи ">
+
+				<p class="photo-gallery__counter-desctop">1/11</p>
+				<div class="block__gallery-btn">
+					<button class="gallery__btn"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="24"
+							viewBox="0 0 15 24" fill="none">
+							<path d="M13 2L3 12L13 22" stroke="#F6A6BF" stroke-width="3" />
+						</svg></button>
+					<button class="gallery__btn"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="24"
+							viewBox="0 0 15 24" fill="none">
+							<path d="M2 2L12 12L2 22" stroke="#F6A6BF" stroke-width="3" />
+						</svg></button>
+				</div>
 			</div>
 		</section>
+
 		<section class="terms">
 			<div class="terms-background">
 				<h2 class="terms-header">Условия размещения</h2>

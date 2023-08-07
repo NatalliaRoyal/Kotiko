@@ -1,4 +1,6 @@
-.footer {}
+.footer {
+	overflow: hidden;
+}
 
 .footer-block {
 	padding: 0 0.62rem 1.88rem;
@@ -79,8 +81,9 @@
 	display: none;
 }
 
-@media (min-width: 1600px) {
+@media screen and (min-width: 1600px) {
 	.footer {
+		overflow: hidden;
 		font-size: 1vw;
 		margin: 0 auto;
 	}

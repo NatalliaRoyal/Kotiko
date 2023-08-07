@@ -5,27 +5,28 @@
 .rooms {
 	padding: 0 0.62rem;
 	margin-bottom: 5rem;
+	overflow: hidden;
+}
 
-	.rooms__title {
-		@include caption;
-		color: $font-global-color;
-	}
+.rooms__title {
+	@include caption;
+	color: $font-global-color;
 }
 
 .stock {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 11.3rem;
+	min-height: 11.3rem;
 	margin: 2.5rem 1.5rem;
 	background-image: url(./../../img/bg-2.png);
 	background-repeat: no-repeat;
 	background-position: center;
+}
 
-	.stock__text {
-		@include adress;
-		color: $font-global-color;
-	}
+.stock__text {
+	@include adress;
+	color: $font-global-color;
 }
 
 .rooms__cards {
@@ -37,16 +38,19 @@
 .block-img__standart {
 	background-image: url('./../../img/discount-img.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .block-img__standart-plus {
 	background-image: url('./../../img/discount-img-2.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .block-img__lux {
 	background-image: url('./../../img/discount-img-3.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .arrow {
@@ -55,7 +59,6 @@
 	align-items: center;
 	height: 24.6875rem;
 	padding: 0 0.62rem;
-
 }
 
 .card {
@@ -121,4 +124,156 @@
 
 	@include normal;
 	color: $font-lapka-color;
+}
+
+@media screen and (min-width: 1600px) {
+	.rooms {
+		font-size: 1vw;
+		margin: 0 auto;
+		padding: 0 12.5em;
+		overflow: hidden;
+	}
+
+	.rooms__title-stock {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 2.31em;
+		padding-top: 2.31em;
+	}
+
+	.rooms__title {
+		font-size: 2.5em;
+		font-weight: 600;
+	}
+
+	.stock {
+		min-height: 12em;
+		min-width: 17em;
+		margin: 0 20em 0 0;
+		padding: 0;
+	}
+
+	.stock__text {
+		font-size: 1.25em;
+		font-weight: 600;
+		line-height: 140%;
+	}
+
+	.rooms__cards {
+		display: flex;
+		flex-direction: row;
+		gap: 1.88em;
+	}
+
+	.block-img__standart {
+		width: 23.75em;
+		height: 31.25em;
+	}
+
+	.block-img__standart-plus {
+		width: 23.75em;
+		height: 31.25em;
+	}
+
+	.block-img__lux {
+		width: 23.75em;
+		height: 31.25em;
+	}
+
+	.arrow {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 31.25em;
+		padding: 0 0.62em;
+	}
+
+
+	.card__description {
+		padding: 1.25em 1.25em 2.5em 1.25em;
+	}
+
+	.card__title-price {
+		display: flex;
+		gap: 1.8em;
+	}
+
+	.card__title {
+		font-size: 1.25em;
+		font-weight: 600;
+		line-height: 140%;
+		padding-bottom: 0.81em;
+	}
+
+	.card__price {
+		font-size: 1.25em;
+		font-weight: 500;
+		line-height: 150%;
+		padding-bottom: 1.19em;
+	}
+
+
+
+
+	.room-size {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 2.75em;
+		padding-bottom: 1.25em;
+	}
+
+	.room-size__text {
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 140%;
+	}
+
+	.room-size-sm {
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 140%;
+	}
+
+	.house-size {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 2.75em;
+		padding-bottom: 1.25em;
+	}
+
+	.house-size__text {
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 140%;
+		padding-bottom: 0.31em;
+	}
+
+	.house-size-sm {
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 140%;
+		display: flex;
+		flex-direction: column;
+		gap: 0.3em;
+		padding-right: 5.3em;
+
+
+	}
+
+	.card__btn {
+		width: 320px;
+		height: 70px;
+		margin: 0 1.56em 1.88em 1.56em;
+		border: none;
+		border-radius: 6.25em;
+
+		font-size: 1.25em;
+		font-weight: 600;
+		line-height: 140%;
+
+	}
+
 }
