@@ -1,15 +1,12 @@
 .terms {
     display: flex;
     flex-direction: column;
-    margin-top: 1.25rem;
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
+    padding: 1.25rem 0.625rem 0;
     justify-content:start;
     align-content: center;
 }
 .terms-background{
     background-image: url(./../../img/bg-3.png);
-    width: 20rem;
     height: 20rem;
     background-repeat: no-repeat;
 }
